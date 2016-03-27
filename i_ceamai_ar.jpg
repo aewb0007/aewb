@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404 Not Found!</title>
+    
+<style type="text/css">
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+html, body, div, span, a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	transition:all 0.2s ease-in-out;
+}
+body, a {
+	font: 300 2.3vmax / 120% Roboto, Helvetica, Arial, sans-serif;
+	color:#344a5f;
+}
+a {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+.but {
+    border: 0.5vmin solid #344a5f;
+    background: #344a5f;
+    color: #ffffff;
+    padding:1.3vmax 2.6vmax;
+    margin:1vmax;
+    display:inline-block;
+}
+.but:hover {
+    text-decoration:none;
+    background: #ffffff;
+    color:#344a5f;
+}
+.but.but2 {
+    background:#fff;
+    color:#344a5f;
+}
+.but.but2:hover {
+    background: #344a5f;
+    color: #ffffff;
+}
+.text {
+    text-align:center;
+    font-size:2.5vmax;
+    line-height:120%;
+    padding:12vmax 8vmin 8vmin;
+}
+.footer {
+    position:absolute;
+    bottom:1.5vmax;
+    width:100%;
+    text-align:center;
+}
+.footer a {
+    font-size:1.7vmax;
+}
+</style>
+
+</head>
+<body>
+    <div class="text">Oh no! The requested URL was not found on this server. Please contact the <!--WEBMASTER//-->webmaster<!--WEBMASTER//--> with any queries.</div>
+    <center>
+        <a class="but" href="javascript:history.go(-1)">Go Back</a>
+        <a class="but but2" href="/">Go Home</a>
+    </center>
+    <div class="footer"><a href="http://seonid.com" target="_blank">Powered by <strong>seonid.com</strong></a></div>
+</body>
+</html>
